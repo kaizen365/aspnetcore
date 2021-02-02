@@ -23,6 +23,7 @@ namespace Microsoft.AspNetCore.Mvc
         /// The default behavior is to use framework defaults as configured by <see cref="MvcOptions.AllowEmptyInputInBodyModelBinding"/>.
         /// Specifying <see cref="EmptyBodyBehavior.Allow"/> or <see cref="EmptyBodyBehavior.Disallow" /> will override the framework defaults.
         /// </remarks>
+        // REVIEW: Do we write analyzers to warn against configuring this with MapAction?
         public EmptyBodyBehavior EmptyBodyBehavior { get; set; }
     }
 }
