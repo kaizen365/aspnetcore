@@ -1,1 +1,4 @@
 #nullable enable
+Microsoft.AspNetCore.Http.Api.Abstractions.IFromBodyAttribute
+Microsoft.AspNetCore.Http.Api.Abstractions.IFromRouteAttribute
+Microsoft.AspNetCore.Http.Api.Abstractions.IFromRouteAttribute.Name.get -> string!
